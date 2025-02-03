@@ -1,16 +1,20 @@
-# first_app
+<h1>Flutter Authentication UI</h1>
 
-A new Flutter project.
+This repository contains a Flutter project implementing a Login and Sign-Up page for a mobile application.
 
-## Getting Started
+<img src="https://github.com/Yasintha8/flutter_auth_app/blob/main/cover.png"/>
 
-This project is a starting point for a Flutter application.
+<h2>Features</h2>
+<ul>
+  <li>Modern UI Design for authentication</li>
+  <li>Email & Password Authentication UI</li>
+  <li>Flutter Widgets like TextField, ElevatedButton, Form, etc.</li>
+  <li>Navigation Between Login and Sign-Up Pages</li>
+</ul>
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
