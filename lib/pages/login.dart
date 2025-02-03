@@ -14,21 +14,33 @@ class _LogInState extends State<LogIn> {
     return Scaffold(
       backgroundColor: Color(0xff14141d),
       body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(
+                "images/bd_img.avif"), // Change to your background image path
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.asset('images/signin.png'),
             Padding(
               padding: const EdgeInsets.only(left: 30.0, right: 30.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  SizedBox(
+                    height: 180.0,
+                  ),
                   Text(
                     "Welcome!",
                     style: TextStyle(
                         color: const Color.fromARGB(208, 255, 255, 255),
                         fontSize: 34.0,
                         fontWeight: FontWeight.w500),
+                  ),
+                  SizedBox(
+                    height: 30.0,
                   ),
                   Text(
                     "Login!",
