@@ -1,4 +1,4 @@
-<h1>Flutter Authentication UI</h1>
+<h1>Flutter App - Authentication </h1>
 
 This repository contains a Flutter project implementing a Login and Sign-Up page for a mobile application.
 
